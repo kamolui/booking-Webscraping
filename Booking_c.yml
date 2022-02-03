@@ -1,0 +1,71 @@
+Hotel:
+    css: div.sr_item
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        Hotel_name:
+            css: span.sr-hotel__name
+            xpath: null
+            multiple: true
+            type: Text
+        Location:
+            css: a.bui-link
+            xpath: null
+            multiple: true
+            type: Text
+        Price:
+            css: div.bui-price-display__value
+            xpath: null
+            multiple: true
+            type: Text
+        Discount:
+            css: div.bui-f-color-destructive
+            xpath: null
+            multiple: true
+            type: Text
+        Rating_n:
+            css: div.bui-review-score__badge
+            xpath: null
+            multiple: true
+            type: Text
+        Rating:
+            css: div.bui-review-score__title
+            xpath: null
+            multiple: true
+            type: Text
+        Type_room:
+            css: div.room_link
+            xpath: null
+            multiple: true
+            type: Text
+        Tax:
+            css: div.prd-taxes-and-fees-under-price
+            xpath: null
+            multiple: true
+            type: Text
+        Bed:
+            css: div.c-beds-configuration
+            xpath: null
+            multiple: true
+            type: Text
+        Stars:
+            css: span.bui-rating
+            xpath: null
+            multiple: true
+            type: Text
+        Guest:
+            css: div.bui-price-display__label
+            xpath: null
+            multiple: true
+            type: Text
+        Coments:
+            css: div.bui-review-score__text
+            xpath: null
+            multiple: true
+            type: Text
+        Cor:
+            css: a.bui-link
+            xpath: null
+            type: Attribute
+            attribute: data-coords

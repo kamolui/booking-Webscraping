@@ -1,0 +1,50 @@
+Hotel:
+    css: 'div._fe1927d9e:nth-of-type(n+3)'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        Hotel_name:
+            css: div.fde444d7ef
+            xpath: null
+            type: Text
+        Location:
+            css: 'span span.af1ddfc958:nth-of-type(1)'
+            xpath: null
+            type: Text
+        Price:
+            css: span._a11e76d75
+            xpath: null
+            type: Text
+        Discount:
+            css: span.fde444d7ef
+            xpath: null
+            type: Text
+        Rating_n:
+            css: div._9c5f726ff.bd528f9ea6
+            xpath: null
+            type: Text
+        Rating:
+            css: 'div._0e12d9386 div._0e12d9386 div._9c5f726ff'
+            xpath: null
+            type: Text
+        Type_room:
+            css: span._c5d12bf22
+            xpath: null
+            type: Text
+        Tax:
+            css: div._4abc4c3d5.d8eecffad4
+            xpath: null
+            type: Text
+        Bed:
+            css: 'div._2075f7b46 div._4abc4c3d5'
+            xpath: null
+            type: Text
+        Guest:
+            css: div._4abc4c3d5._7ee1c7d14
+            xpath: null
+            type: Text
+        Coments:
+            css: 'div._0e12d9386 div._4abc4c3d5'
+            xpath: null
+            type: Text
